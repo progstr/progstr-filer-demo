@@ -1,0 +1,29 @@
+<h2>Manage Users</h2>
+
+<table class="users">
+  <tr>
+    <th>Name</th>
+    <th>Age</th>
+    <th>Avatar</th>
+    <th>Tools</th>
+  </tr>
+
+<% @users.each do |user| %>
+  <tr>
+    <td><%= user.name %></td>
+    <td><%= user.age %></td>
+    <td><%= image_tag user.avatar.url, :style => "width: 100px" %></td>
+    <td>
+      <ul class="tools">
+        <li><%= link_to 'Show', user %></li>
+        <li><%= link_to 'Edit', edit_user_path(user) %></li>
+        <li><%= link_to 'Destroy', user, confirm: 'Are you sure?', method: :delete %></li>
+      </ul>
+    </td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to '[+] New User', new_user_path, :class => "new_link" %>
