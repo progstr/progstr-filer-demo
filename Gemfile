@@ -8,7 +8,6 @@ gem 'rails', '3.1.3'
 gem "uuid"
 gem "rest-client"
 gem "multi_json"
-gem 'sqlite3'
 gem "progstr-filer", :require => "progstr-filer"
 
 # Gems used only for assets and not required
@@ -32,8 +31,13 @@ gem 'jquery-rails'
 
 # To use debugger
 # gem 'ruby-debug19', :require => 'ruby-debug'
+group :production, :staging do
+  gem "pg"
+end
 
-group :test do
+group :test, :development do
+  gem 'sqlite3'
+
   # Pretty printed test output
   gem 'turn', '0.8.2', :require => false
 end
