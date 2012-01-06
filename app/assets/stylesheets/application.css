@@ -26,6 +26,10 @@
     background-color: #eee;
 }
 
+.users tr:nth-child(odd) {
+    background-color: #fff;
+}
+
 .new_link {
     background-color: royalblue;
     font-weight: bold;
