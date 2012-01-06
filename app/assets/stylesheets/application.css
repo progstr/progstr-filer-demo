@@ -23,21 +23,18 @@
 }
 
 .users th {
-    color: white;
-    background-color: darkslateblue;
+    color: #311;
+    background-color: #755;
     padding: 10px;
 }
 
-.users tr:nth-child(even) {
-    background-color: #eee;
-}
-
-.users tr:nth-child(odd) {
-    background-color: #fff;
+.users tr {
+    background-color: #755;
+    border-top: 1px solid #311;
 }
 
 .new_link {
-    background-color: royalblue;
+    background-color: #222;
     font-weight: bold;
     padding: 10px;
     color: white !important;
@@ -54,6 +51,7 @@
 
 h2 {
     padding: 20px 20px;
-    color: white;
-    background-color: navy;
+    color: #100;
+    text-align: center;
+    background-color: #a77;
 }
