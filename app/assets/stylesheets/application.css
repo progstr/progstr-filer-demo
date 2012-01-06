@@ -65,3 +65,7 @@ body {
 a {
     color: #aaa !important;
 }
+
+a:hover {
+    background-color: transparent !important;
+}
