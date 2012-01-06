@@ -23,18 +23,16 @@
 }
 
 .users th {
-    color: #311;
-    background-color: #755;
+    text-align: left;
+    color: #fff;
     padding: 10px;
 }
 
 .users tr {
-    background-color: #755;
     border-top: 1px solid #311;
 }
 
 .new_link {
-    background-color: #222;
     font-weight: bold;
     padding: 10px;
     color: white !important;
@@ -51,7 +49,11 @@
 
 h2 {
     padding: 20px 20px;
-    color: #100;
+    color: #fff;
     text-align: center;
-    background-color: #a77;
+}
+
+body {
+    text-shadow: 1px 1px 2px #000;
+    color: #aaa;
 }
