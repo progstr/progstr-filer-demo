@@ -29,7 +29,11 @@
 }
 
 .users tr {
-    border-top: 1px solid #311;
+    border-top: 1px solid #fff;
+}
+
+.users tr:last-child {
+    border-bottom: 1px solid #fff;
 }
 
 .new_link {
