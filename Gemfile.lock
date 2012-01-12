@@ -58,7 +58,7 @@ GEM
     multi_json (1.0.4)
     pg (0.12.2)
     polyglot (0.3.3)
-    progstr-filer (0.8.1)
+    progstr-filer (0.8.2)
       activemodel (>= 3.0.0)
       activerecord (>= 3.0.0)
       multi_json
